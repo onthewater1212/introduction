@@ -1,0 +1,84 @@
+.midashi {
+    background-image: url(IMG_0259.jpg);
+    background-size: cover; /* 画像を画面全体に表示 */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
+    height: 670px;
+    width:100%;
+}
+
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    padding-top:300px;
+    color: white;
+    font-family:Brush Script MT;
+}
+
+.Clothing {
+    margin-top: 150px;
+}
+
+h2 {
+    font-family:Brush Script MT;
+    font-size:50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.pants {
+    margin-left:150px;
+    margin-right:200px;
+    width:300px;
+    float:left;
+}
+
+.Food {
+    clear: both;
+    margin-top: 300px;
+    padding:0 150px;
+}
+
+.favorite {
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.ookii {
+    font-size:40px;
+    font-family: MS Gothic;
+}
+
+
+
+.foodlist {
+    float:left;
+    width:33%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.foodname {
+    font-family: MS Gothic;
+    font-size:20px;
+}
+
+.setsumei {
+    font-family: MS Gothic;
+}
+
+.Housing {
+    clear: both;
+    margin-bottom: 300px;
+    
+}
+
+.foodillust {
+    width: 300px;
+}
+
+.housebun {
+    text-align: center;
+    font-family: MS Gothic;
+}
