@@ -91,9 +91,11 @@ h2 {
 
   .pants{
     float:none;
+    text-align:center;
   }
 
   .foodlist{
     float:none;
+    text-align:center;
   }
 }
