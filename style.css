@@ -92,10 +92,26 @@ h2 {
   .pants{
     float:none;
     text-align:center;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .foodlist{
     float:none;
     text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .midashi {
+    height:auto;
+  }
+
+  .Food {
+    padding: 0 20px;
+  }
+
+  .foodillust {
+    width:100%;
   }
 }
