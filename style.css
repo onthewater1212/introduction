@@ -8,6 +8,7 @@
 }
 
 
+
 h1 {
     font-size: 70px;
     text-align: center;
@@ -81,4 +82,18 @@ h2 {
 .housebun {
     text-align: center;
     font-family: MS Gothic;
+}
+
+@media (max-width:480px) {
+  .Clothing {
+    text-align: center;
+  }
+
+  .pants{
+    float:none;
+  }
+
+  .foodlist{
+    float:none;
+  }
 }
