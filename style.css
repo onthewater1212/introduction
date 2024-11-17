@@ -1,5 +1,5 @@
 body{
-  font-family: MS Gothic;
+  font-family: "MS Gothic", "Helvetica", "Arial", sans-serif;
   line-height:1.5;
 }
 
@@ -189,63 +189,74 @@ h2 {
     font-family: MS Gothic;
 }
 
-@media (max-width:390px) {
-  .Clothing {
-    text-align: center;
-  }
-
-  .pants{
-    float:none;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-  .foodlist{
-    float:none;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
+@media screen and (max-width: 390px) {
+  body {
+      font-size: 14px; /* フォントサイズを小さくして画面に収まるように */
   }
 
   .midashi {
-    height:auto;
+      height: 400px; /* 高さを少し小さくする */
+      padding: 20px; /* 余白を調整 */
   }
 
-  .Food {
-    padding: 0 20px;
+  .midashi h1 {
+      font-size: 30px; /* 見出しを小さく */
+      margin-bottom: 10px; /* スペースを縮める */
   }
 
-  .foodillust {
-    width:100%;
+  .midashi p {
+      font-size: 20px; /* パラグラフのフォントサイズを縮小 */
   }
 
-  .idol h3, .idol .bunsho {
-    font-size: 18px; /* 小さい画面用にテキストサイズを調整 */
+  .idol, .baseball {
+      flex-direction: column; /* 横並びを縦並びに変更 */
+      align-items: center; /* 中央揃え */
   }
 
-  .base-text h4 {
-    font-size: 20px; /* フォントサイズの調整 */
+  .idol-text, .base-text {
+      margin-right: 0;
+      margin-left: 0; /* 余白を調整 */
+      text-align: center; /* テキストを中央揃え */
+  }
+
+  .idol-text h3, .base-text h4 {
+      font-size: 20px; /* 見出しのフォントサイズを小さく */
+  }
+
+  .threeimage {
+      flex-direction: column; /* 画像を縦に並べる */
+      gap: 5px; /* ギャップを小さくする */
   }
 
   .threeimage img {
-    width: 100%; /* 小さい画面では画像をフル幅にする */
+      width: 100%; /* 画像をフル幅にする */
+      height: auto;
   }
 
-  h1 {
-    font-size: 30px; /* ヘッダーのフォントサイズを小さくする */
-  }
-
-  h2 {
-    font-size: 40px; /* h2のフォントサイズを調整 */
-  }
-
-  .favorite {
-    font-size: 16px; /* フォントサイズを小さくする */
+  .foodlist {
+      width: 100%; /* 食品リストをフル幅に */
+      margin-bottom: 50px; /* 下の余白を調整 */
   }
 
   .foodname {
-    font-size: 16px; /* 食べ物名のフォントサイズを調整 */
+      font-size: 16px; /* フードリストのフォントサイズを小さく */
   }
-  
+
+  .pants, .foodlist, .foodillust {
+      width: 100%; /* アイテムの幅を調整して収める */
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .h2 {
+      font-size: 30px; /* h2を小さくする */
+  }
+
+  .coment {
+      text-align: left; /* コメントを左揃え */
+  }
+
+  .sub {
+      margin-bottom: 20px; /* 下の余白を少し縮める */
+  }
 }
