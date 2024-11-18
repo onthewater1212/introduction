@@ -191,7 +191,10 @@ h2 {
 
 @media screen and (max-width: 390px) {
   body {
-      font-size: 14px; /* フォントサイズを小さくして画面に収まるように */
+    background-size: cover; /* 背景画像を画面いっぱいにする */
+    background-position: center; /* 画像を中央に配置 */
+    height: 100vh; /* 高さを画面全体にする */
+    width: 100%; /* 幅を画面全体にする */
   }
 
   .midashi {
@@ -211,17 +214,25 @@ h2 {
   .idol, .baseball {
       flex-direction: column; /* 横並びを縦並びに変更 */
       align-items: center; /* 中央揃え */
+      align-items: center;
   }
 
   .idol-text, .base-text {
-     
+      margin: 0;
       text-align: center; /* テキストを中央揃え */
+      width: 100%
   }
 
   .idol-text h3, .base-text h4 {
       font-size: 20px; /* 見出しのフォントサイズを小さく */
       text-align: center;
+      margin-bottom: 10px;
   }
+
+.bunsho {
+  text-align: center; /* その他のテキストも中央揃え */
+  margin: 10px 0; /* 上下に適度な余白を設定 */
+}
 
   .threeimage {
       flex-direction: column; /* 画像を縦に並べる */
